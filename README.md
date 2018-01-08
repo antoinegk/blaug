@@ -7,4 +7,4 @@ I'm using this repo for three things:
 * Experimenting with Ruby on Rails
 * practicing with Continuous Development environments
 
-This is not meant to be secure (yet). If it ever will be, it will be under the "Security" branch, which may or may not exist at any point in time.
+This is not meant to be secure (yet). If it ever will be, the relevant code will be under the "Security" branch, which may or may not exist at any point in time.
