@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-http_basic_authenticate_with :name => "admin", :password => "yeet", only: :new 
+http_basic_authenticate_with :name => "admin", :password => "yeet"
 def index
     @articles = Article.all
  end
