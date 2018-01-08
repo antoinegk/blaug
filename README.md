@@ -1,24 +1,10 @@
-# README
+# Blaug
+## A copy of a tutorial web app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I'm using this repo for three things:
 
-Things you may want to cover:
+* Practicing Git
+* Experimenting with Ruby on Rails
+* practicing with Continuous Development environments
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is not meant to be secure (yet). If it ever will be, it will be under the "Security" branch, which may or may not exist at any point in time.
