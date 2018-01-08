@@ -1,0 +1,41 @@
+/* line 4, /home/ubuntu/coolapp/app/assets/stylesheets/welcome.scss */
+body {
+  color: #ccc;
+  background: #222;
+}
+
+/* line 8, /home/ubuntu/coolapp/app/assets/stylesheets/welcome.scss */
+a:link {
+  color: #0c0;
+}
+
+/* line 11, /home/ubuntu/coolapp/app/assets/stylesheets/welcome.scss */
+a:visited {
+  color: #030;
+}
+
+/* line 14, /home/ubuntu/coolapp/app/assets/stylesheets/welcome.scss */
+a:hover {
+  color: #0f0;
+}
+
+/* line 17, /home/ubuntu/coolapp/app/assets/stylesheets/welcome.scss */
+a:active {
+  color: #f0f;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
