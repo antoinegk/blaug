@@ -6,6 +6,13 @@
 <p>
   <%= @article.text %>
 </p>
+<hr/>
+<h2>Comments</h2>
+<% @article.comments.each do |comment| %>
+	<p><%= comment.commenter %></p>
+	<p><%= comment.body.timestamp %>
+
+<% end>
 <h2>Add a comment:</h2>
 <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
   <p>
