@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 table {
     border-collapse: collapse;
+    font-family: Terminus,monospace;
 }
 
 //table, th, td {
@@ -13,9 +14,13 @@ td {
     border-top: 1px solid #555;
     border-collapse: collapse;
 }
+td#read,td#title {
+	border-right: 1px solid #555;
+
 td#read {
 	font-size: 20px;
 }
+
 
 p.blogTitle {
  font-family: sans-serif;
