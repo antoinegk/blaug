@@ -3,14 +3,12 @@
 <table>
   <tr>
     <th>Title</th>
-    <th>Preview</th>
   </tr>
  
   <% @articles.each do |article| %>
     <tr>
       <td><%= truncate(article.title) %></td>
-      <td><%= truncate(article.text, :length => 10) %></td>
-      <td><%= link_to 'R', article_path(article) %></td>
+      <td id="read"><%= link_to 'Read', article_path(article) %></td>
       <td><%= link_to 'E', edit_article_path(article) %></td>
       <td><%= link_to 'D', article_path(article),
               method: :delete,
