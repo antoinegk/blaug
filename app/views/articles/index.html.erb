@@ -13,7 +13,7 @@
       <td><%= link_to 'D', article_path(article),
               method: :delete,
               data: { confirm: 'Really?' } %></td>
-      <td><%= @comments.length =%></td> 
+      <td><%= article.comments.length =%></td> 
     </tr>
   <% end %>
 </table>
