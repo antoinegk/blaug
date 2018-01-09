@@ -7,13 +7,13 @@
  
   <% @articles.each do |article| %>
     <tr>
-      <td><%= truncate(article.title) %></td>
+      <td id="title"><%= article.title %></td>
+      <td><%= article.comments.length =%> comments</td> 
       <td id="read"><%= link_to 'Read', article_path(article) %></td>
       <td><%= link_to 'E', edit_article_path(article) %></td>
       <td><%= link_to 'D', article_path(article),
               method: :delete,
               data: { confirm: 'Really?' } %></td>
-      <td><%= article.comments.length =%></td> 
     </tr>
   <% end %>
 </table>
