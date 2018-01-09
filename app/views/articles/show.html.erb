@@ -10,7 +10,7 @@
 <h2>Comments</h2>
 <% @article.comments.each do |comment| %>
 	<p><%= comment.commenter %></p>
-	<p><%= comment.body.timestamp %>
+	<p><%= comment.created_at %>
 
 <% end %>
 <h2>Add a comment:</h2>
