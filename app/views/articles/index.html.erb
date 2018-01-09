@@ -7,11 +7,11 @@
  
   <% @articles.each do |article| %>
     <tr>
-      <td id="title"><%= article.title %></td>
+      <td><%= article.title %></td>
       <td><%= article.comments.length =%> comments</td> 
       <td id="read"><%= link_to 'Read', article_path(article) %></td>
-      <td><%= link_to 'E', edit_article_path(article) %></td>
-      <td><%= link_to 'D', article_path(article),
+      <td class="command"><%= link_to 'E', edit_article_path(article) %></td>
+      <td class="command"><%= link_to 'D', article_path(article),
               method: :delete,
               data: { confirm: 'Really?' } %></td>
     </tr>
