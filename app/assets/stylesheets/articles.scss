@@ -1,11 +1,15 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 table {
     border-collapse: collapse;
     font-family: Terminus,monospace;
 }
 
+//table, th, td {
+//    border: none; 
+//}
 td {
     border-bottom: 1px solid #555;
     border-top: 1px solid #555;
@@ -16,7 +20,8 @@ td.command {
 	border:none;
 }
 td#read {
-	font-size: 20px;
+	font-size: 150%;
+	border-right: none;
 }
 
 

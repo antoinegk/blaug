@@ -8,7 +8,7 @@
   <% @articles.each do |article| %>
     <tr>
       <td><%= article.title %></td>
-      <td><%= article.comments.length =%> comments</td> 
+      <td><%=pluralize(article.comments.length,'comment')%></td> 
       <td id="read"><%= link_to 'Read', article_path(article) %></td>
       <td class="command"><%= link_to 'E', edit_article_path(article) %></td>
       <td class="command"><%= link_to 'D', article_path(article),

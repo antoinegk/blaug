@@ -24,7 +24,7 @@ a:link {
  color: #0c0;
 }
 a:visited {
- color: #070;
+ color: #0A0;
 }
 a:hover {
  color: #0f0;
@@ -32,4 +32,6 @@ a:hover {
 a:active{
  color: #f0f;
 }
-
+h1 {
+ font-family: sans-serif;
+}
