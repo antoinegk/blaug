@@ -1,3 +1,5 @@
 # Contributor Covenant Code of Conduct
 
-why would you edit this lmao
+don't be rude
+
+only commit if you're sure it's good code
